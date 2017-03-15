@@ -19,7 +19,7 @@
 	* git status
 	* git add --all
 	* git status
-	* git commit -m "<your commit message>"
+	* git commit -m "your commit message"
 	* git push origin master
 
 
