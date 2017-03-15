@@ -9,6 +9,7 @@ module.exports = {
             "error",
             "single"
         ],
+        "no-console": ["error", { "allow": ["warn", "error"] }],
         "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
         "semi": [
             "error",
