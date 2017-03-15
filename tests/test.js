@@ -162,7 +162,7 @@ describe('contains(arr, item)', function() {
 });
 
 describe('addNumbers(numbers)', function() {
-  it('should return true if the array addNumbers the item', function() {
+  it('should add all of the numbers in the array together and return the sum', function() {
     expect(exercises.addNumbers([10, 10, 16])).toBe(36);
     expect(exercises.addNumbers([97, 100])).toBe(197);
     expect(exercises.addNumbers([0])).toBe(0);
@@ -177,7 +177,7 @@ describe('averageTestScore(testScores)', function() {
 });
 
 describe('largestNumber(numbers)', function() {
-  it('should return the average test score', function() {
+  it('should return the largets number', function() {
     expect(exercises.largestNumber([10, 10, 16, 12])).toBe(16);
     expect(exercises.largestNumber([97, 100, 80, 55, 72, 94])).toBe(100);
     expect(exercises.largestNumber([97, 10000, 80, 55, 7.2, -94])).toBe(10000);
