@@ -177,7 +177,7 @@ describe('averageTestScore(testScores)', function() {
 });
 
 describe('largestNumber(numbers)', function() {
-  it('should return the largets number', function() {
+  it('should return the largest number', function() {
     expect(exercises.largestNumber([10, 10, 16, 12])).toBe(16);
     expect(exercises.largestNumber([97, 100, 80, 55, 72, 94])).toBe(100);
     expect(exercises.largestNumber([97, 10000, 80, 55, 7.2, -94])).toBe(10000);
