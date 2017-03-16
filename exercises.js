@@ -137,8 +137,9 @@ function addItemToFront(arr, item) {
 }
 
 function wordsToSentence(words) {
-  words = words.join(' ');
-  return words;
+  var sentence;
+  sentence = words.join(' ');
+  return sentence;
   //words is an array of strings
   //return a string that is all of the words concatenated together
   //spaces need to be between each word
