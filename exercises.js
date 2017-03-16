@@ -78,10 +78,16 @@ function fizzBuzz(num) {
   //otherwise return num
 }
 function isPrime(num) {
-  if (num % 2 === 0 && num % num ===0){
+  if (num < 2){
     return true;
-  } else {
+  } else if (num === 2){
     return false;
+  } for (var i = 2; i < num; i++){
+    if (num % i === 0){
+      return false;
+    } else if (i === num -1){
+      return true;
+    }
   }
   //return true if num is prime.
   //otherwise return false
@@ -160,7 +166,7 @@ function addNumbers(numbers) {
 function averageTestScore(testScores) {
 var sum = 0;
 for (var i = 0; i < testScores.length; i++){
-    sum =+ testScores[i];
+    sum += testScores[i];
   }
   var average = sum/testScores.length;
   return average;
