@@ -15,14 +15,15 @@
 
 		In Javascript, and in most other languages, these are referred to as logical operators. They 'operate' on an expression and 'return' a boolean value (true or false), to determine whether the statement is true or false. 
 
-			'&&' is known as the LOGICAL AND. When this is used for two expressions, it means that, all the expressions on both sides should evaluate to true before the statement whole statement can be deemed 'true'. 
-			
-			Example, You can play the game only when "you have done your chores && taken your supper". For this to return true, you must have done your chores and taken your supper. Not one, both.
+		'&&' is known as the LOGICAL AND. When this is used for two expressions, it means that, all the expressions on both sides should evaluate to true before the statement whole statement can be deemed 'true'. 			
+		Example, You can play the game only when "you have done your chores && taken your supper". For this to return true, you must have done your chores and taken your supper. Not one, both.
 
-			'||' is the LOGICAL OR operator. When used to evaluate 2 expressions, only one side of the expression needs to be true for this operator to return a 'true' value. if both are true, the || operator returns a 'false' value.
-			Therefore, in our gaming example above, in order to be allowed to play the game, you must have either taken your supper or done your chores. Any of them is sufficient.
 
-			'!' is the LOGICAL NOT operator. Unlike the others, this is normally used on a single operand. In plain language, you might use it to do something like. If Nana is NOT bad, maintain him in the team.
+		'||' is the LOGICAL OR operator. When used to evaluate 2 expressions, only one side of the expression needs to be true for this operator to return a 'true' value. if both are true, the || operator returns a 'false' value.
+		Therefore, in our gaming example above, in order to be allowed to play the game, you must have either taken your supper or done your chores. Any of them is sufficient.
+		
+
+		'!' is the LOGICAL NOT operator. Unlike the others, this is normally used on a single operand. In plain language, you might use it to do something like. If Nana is NOT bad, maintain him in the team.
 
 
 	* Array
