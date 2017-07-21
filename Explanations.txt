@@ -1,0 +1,33 @@
+for loop: A for loop is a way to "iterate" through a range of numbers, starting at
+any integer and ending with any integer, and counting by any integer. You could have
+a for loop that starts at 12 and counts by 5 all the way to 72. Technically it would
+not be conventional, but it would be possible. You can use the values in the loop to
+access other information, such as array items by index. This would be more work to have
+a value of 34 for i and have to subtract 34 to access the first element, but it is
+possible.
+_________________________________________________________________________
+
+&& || !: The symbol used for the "and" condition is "&&." This is used in loops, to signify
+that two or more conditions are met. For example, with "var x = 5," if you said x > 3 && x < 10,
+it would be true. The same goes for || (or) and ! (not). The or symbol will evaluate that at least
+1 of several conditions are met. Also, the symbol for not evaluates whether a condition is not met.
+_________________________________________________________________________
+
+Array: An array is alist of items, that are ordered with each each item having its own index.
+The indexing system in JavaScript (and in most other, if not all programming languages) actually
+starts with 0, as opposed to 1, like common sense would tell a non-programmer. It is something that
+should be kept in mind, so that incorrect values aren't accidentally referenced in code.
+_________________________________________________________________________
+
+Git: Git is a system that functions as version control. One is able to upload to Github and
+use Git in the terminal, etc., and it is the medium through which code updates are made to
+the master file.
+_________________________________________________________________________
+
+Github: Github is a website that makes it possible to upload projects to the
+internet to have them edited by several developers. One can host a project and
+have corrections requested/reviewed before approval, which is a convenient and
+reliable way to safeguard against vandalism to a project. Also, having an open
+source project means that it can be edited by anybody who wants to do so. This
+also gives developers a means to gain experience and show potential employers
+that they know what they're doing.
