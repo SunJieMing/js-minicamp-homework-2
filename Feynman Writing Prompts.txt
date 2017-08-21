@@ -1,0 +1,33 @@
+
+    for
+
+	A for loop is used to repeat some code a specified number of times. You create an indexing variable at the
+	beginning of every for loop, and increment it each time you go through the loop. You check whether the
+	indexing variable is at the end or less than a certain number to see if you want to keep looping. Inside
+	the for loop you can use the indexing variable to access elements of an array, or to do calculations.
+
+    &&, ||, !
+
+	The && symbol means "and". You can use && to see if multiple expressions are true at the same time.
+	It is like asking, "Is this true && this true?" If one of the expressions is false, the whole thing will
+	return false. The || symbol means "or". When you use ||, you are asking whether either one of the expressions
+	is true. "true || false" would evaluate to true. The ! symbol means "not". Not is used to flip the value
+	of a boolean. !true would be false, and !false would be true.
+
+    Arrays
+
+	Arrays are sequences of variables. Storing things in a sequence is one way to organize data. Organizing your
+	data helps you work with it more easily and more efficiently. If I hold 1, 2, and 3 in an array, I can loop
+	through the array and access all those elements individually. If I just held those values in variables I
+	would have to manually type out all of the variable names to access each value. You can see how that
+	would get cumbersome if I had many different values to work with.
+
+    Git
+
+	Git is a command line tool that helps you organize and share files in a way that allows developers to easily
+	work together on large projects and manage multiple versions more easily.
+
+    GitHub
+
+	GitHub is the website associated with Git. You can browse people's repositories, make your own copies of
+	their repositories, and submit requests to have changes you make incorporated into the owner's repository.
