@@ -4,11 +4,16 @@
 ---
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
-	* `for`
-	* `&&`, `||`, `!`
-	* Arrays
-	* Git
-	* GitHub
+	* `for`  --- The for statement is used to start a block of code to loop over or iterate over something, such as an array or object.  
+
+	* `&&`, `||`, `!`  -- These are all logical operators in Javascript.  && is an operator that means 'and', || is an operator that means 'or' and ! is an operator that negates a statement.  For example != means not equal to.
+
+	* Arrays  --- Arrays are data structures used to store values in a computer's memory.  It is usually a collection of similar items, such as integers, strings or objects.
+
+	* Git  --- Git is the version control software that is used with repositories.
+
+
+	* GitHub  --- Github is an online repository for code.  
 
 
 2. Install git.  https://git-scm.com/downloads
