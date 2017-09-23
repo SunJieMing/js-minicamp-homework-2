@@ -5,10 +5,19 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
 	* `for`
+	A block of code you can run multiple times. Often used to run some function against each item in an array one at a time.
+
 	* `&&`, `||`, `!`
+	`and`; `or`; `not`, `false of` or `reverse of` a.k.a. "bang"
+
 	* Arrays
+	Group of data items
+
 	* Git
+	A version control system that allows you to create a edit history of files. You can check out files, make your edits, and check them back in. Both versions will be in the Git repository with the most recent at the top of the list.
+
 	* GitHub
+	A internet cloud for Git repositories. 
 
 
 2. Install git.  https://git-scm.com/downloads
