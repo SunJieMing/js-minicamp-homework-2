@@ -1,0 +1,9 @@
+1. FOR is a fairly universal keyword used in control flow. It is used to specify a for loop, in which a block of code is executed iteratively until a certain condition is met.
+
+2. '&&', '||', and '!' are the logical operators of JS. '&&' specifies the logical AND operation, which returns the first expression if it is false or can be evaluated to false, and otherwise returns the second. '||' specifies the logical OR operation, which returns the first expression if it is true or can be evaluated to true, and otherwise returns the second. '!' is a logical NOT operator, which returns true if the expression is false or can be evaluated to false, and otherwise returns false.
+
+3. An array is a data type that describes a collection of elements that are identified by indexes. In `var a = [1, 2, 3]`, a is an array.
+
+4. Git is a distributed version control system. It can be used locally or remotely for software development and for any other project involving files. It provides the underlying software for GitHub, GitLab, and Bitbucket.
+
+5. GitHub is a hosting service for version-controlled repositories, which uses the git system for its internal operations. Git offers free public repositories and paid private repositories. Git Pages can be used as a hosting service to publish web content.
