@@ -15,10 +15,10 @@ function greeting(language) {
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
   switch(language) {
-    case 'German': return 'GutenTag!';
+    case 'German': return 'Guten Tag!';
     case 'English': return 'Hello!';
     case 'Spanish': return 'Hola!';
-    default: return 'Hello';
+    default: return 'Hello!';
   }
 }
 
@@ -87,7 +87,10 @@ function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
-  return arr.map(x => x + 1);
+  for(var i = 0; i < arr.length; i++){
+    arr[i] += 1;
+  }
+  return arr;
 }
 
 function addItemToArray(arr, item) {
@@ -116,8 +119,8 @@ function wordsToSentence(words) {
 function contains(arr, item) {
   // check to see if item is inside of arr
   // return true if it is, otherwise return false
-  if(arr.indexOf(item) === 0){
-    return true;
+  for(var i = 0; i < arr.length; i++){
+    if(arr[i] === item) {return true;}
   }
   return false;
 }
@@ -125,19 +128,22 @@ function contains(arr, item) {
 function addNumbers(numbers) {
   // numbers is an array of integers.
   // add all of the integers and return the value
-  return numbers.reduce((x, y) => x + y);
+  var x = numbers.reduce(function add(x, y){return x + y;});
+  return x;
 }
 
 function averageTestScore(testScores) {
   // testScores is an array.  Iterate over testScores and compute the average.
   // return the average
-  return  testScores.reduce((x, y) => x + y) / testScores.length;
+  var avg = testScores.reduce(function avg(x, y){ return  x + y;}) / testScores.length;
+  return  avg;
 }
 
 function largestNumber(numbers) {
   // numbers is an array of integers
   // return the largest integer
-  return numbers.reduce((x,y) => Math.max(x,y));
+  var largest = numbers.reduce(function largest(x,y){return Math.max(x,y);});
+  return largest;
 }
 
 // Do not modify code below this line.
