@@ -3,6 +3,18 @@
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
+  if (x > y)
+  {
+    return x;
+  }
+  if (x < y)
+  {
+    return y;
+  }
+  if (x === y)
+  {
+    return x || y;
+  }
 }
 
 function greeting(language) {
@@ -11,15 +23,44 @@ function greeting(language) {
   // language: 'English' -> 'Hello!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
+  if (language === 'German')
+  {
+    return 'Guten Tag!';
+  }
+  if (language === 'English')
+  {
+    return 'Hello!';
+  }
+  if (language === 'Spanish')
+  {
+    return 'Hola!';
+  }
+  if ((language != 'German') && (language != 'English') && (language != 'Spanish'))
+  {
+    return 'Hello!';
+  }
+
 }
 
 function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
+  if ((num === 10) || (num ===5))
+  {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function isInRange(num) {
   // return true if num is less than 50 and greater than 20
+  if ((num >= 20) && (num <=50))
+  {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function isInteger(num) {
@@ -36,7 +77,22 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
+  if ((num%5 === 0) && (num%3 === 0))
+  {
+    return 'fizzbuzz';
+  }
+  if(num%3 === 0)
+  {
+    return 'fizz';
+  }
+  
+  if(num%5 === 0)
+  {
+    return 'buzz';
+  }
+return num;  
 }
+
 
 function isPrime(num) {
   // return true if num is prime.
@@ -48,20 +104,24 @@ function isPrime(num) {
 
 function returnFirst(arr) {
   // return the first item from the array
+  return arr[0];
 }
 
 function returnLast(arr) {
   // return the last item of the array
+  return arr[arr.length - 1];
 }
 
 function getArrayLength(arr) {
   // return the length of the array
+ 
 }
 
 function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
+  
 }
 
 function addItemToArray(arr, item) {
