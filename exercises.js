@@ -48,13 +48,19 @@ function isTenOrFive(num) {
   if ((num === 10) || (num ===5))
   {
     return true;
-  } else{
+  } else {
     return false;
   }
 }
 
 function isInRange(num) {
   // return true if num is less than 50 and greater than 20
+  if ((num >= 20) && (num <=50))
+  {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function isInteger(num) {
@@ -98,20 +104,24 @@ function isPrime(num) {
 
 function returnFirst(arr) {
   // return the first item from the array
+  return arr[0];
 }
 
 function returnLast(arr) {
   // return the last item of the array
+  return arr[arr.length - 1];
 }
 
 function getArrayLength(arr) {
   // return the length of the array
+ 
 }
 
 function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
+  
 }
 
 function addItemToArray(arr, item) {
